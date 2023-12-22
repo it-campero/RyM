@@ -1,0 +1,21 @@
+body {
+  background-image: url(2dda0352752311.591b687dc5085.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flex-container {
+  width: 50vw;
+  max-width: 600px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 15px;
+  flex-wrap: wrap;
+ background-color: transparent;
+ backdrop-filter: blur(10px);
+}
